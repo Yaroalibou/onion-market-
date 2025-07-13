@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshOnion Market - Wholesale Onion Trading</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #8BC34A;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 0 0 8px 8px;
+            margin-bottom: 30px;
+        }
+        nav {
+            background-color: #689F38;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        nav a:hover {
+            background-color: #558B2F;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .product-card {
+            background: white;
+            border: 1px solid #e0e0e0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+            border-radius: 5px 5px 0 0;
+        }
+        .btn {
+            display: inline-block;
+            background: #689F38;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px 0;
+            min-height: 60vh;
+        }
+        #contact {
+            background-color: #f0f7ea;
+            padding: 30px;
+            border-radius: 8px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header id="home">
+        <h1>ð§Fresh Onionð§ Market</h1>
+        <p>Direct from farm to your kitchen - wholesale onion trading platform</p>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#prices">Market Prices</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <main>
+        <!-- Home Section -->
+        <section id="home-section">
+            <h2>Premium Quality Onions</h2>
+            <p>We specialize in connecting onion farmers with restaurants, grocery stores, and food processors across the country. Our platform ensures fair prices for farmers and quality produce for buyers.</p>
+            
+            <div class="product-grid">
+                <div class="product-card">
+                   <h3>galmi onion</h3>
+<img src="img/20250404030005.png" class" alt="" width="320" height="470">
+                    <p><strong>Variety:</strong> Granex</p>
+                    <p><strong>Price:</strong> Â¢1200/lb (100kg min)</p>
+                    <p><strong>Availability:</strong> Year-round</p>
+                    <a href="#contact" class="btn">Request Quote</a>
+                </div>
+                <div class="product-card">
+                    <h3>nigeria Onions</h3>
+<img src="img/20250404040659.png" class" alt="" width="350" height="350">
+                    <p><strong>Variety:</strong> Galmi onion</p>
+                    <p><strong>Price:</strong> Â¢1150/lb (100kg min)</p>
+                    <p><strong>Availability:</strong> Seasonal</p>
+                    <a href="#contact" class="btn">Request Quote</a>
+                </div>
+                <div class="product-card">
+                    <h3>yallow Onions</h3>
+<img src="img/20250404041208.png" class" alt="" width="350" height="550">
+                    <p><strong>Variety:</strong> Vidalia</p>
+                    <p><strong>Price:</strong> Â¢300/lb (25kg min)</p>
+                    <p><strong>Availability:</strong> May-November</p>
+                    <a href="#contact" class="btn">Request Quote</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Products Section -->
+        <section id="products">
+            <h2>Our Onion Varieties</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>Yellow Onions</h3>
+                    <p>The all-purpose onion with golden skin and white flesh. Perfect for cooking, caramelizing, and storage.</p>
+                    <p><strong>Season:</strong> Year-round</p>
+                </div>
+                <div class="product-card">
+                    <h3>Red Onions</h3>
+                    <p>Mild flavor with attractive purple skin. Ideal for salads, grilling, and pickling.</p>
+                    <p><strong>Season:</strong> June-December</p>
+                </div>
+                <div class="product-card">
+                    <h3>Sweet Onions</h3>
+                    <p>Low-sulfur varieties with high sugar content. Excellent for raw applications and specialty dishes.</p>
+                    <p><strong>Season:</strong> April-October</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Prices Section -->
+        <section id="prices">
+            <h2>Current Market Prices</h2>
+            <table style="width:100%; border-collapse: collapse;">
+                <tr style="background-color: #689F38; color: white;">
+                    <th style="padding: 12px; text-align: left;">Variety</th>
+                    <th style="padding: 12px; text-align: left;">Price/lb</th>
+                    <th style="padding: 12px; text-align: left;">Min Order</th>
+                    <th style="padding: 12px; text-align: left;">Trend</th>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px;">Galmi onions</td>
+                    <td style="padding: 12px;">Â¢1200</td>
+                    <td style="padding: 12px;">100 Kilogram</td>
+                    <td style="padding: 12px;">â 2% this week</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px;">Nigeria Onions</td>
+                    <td style="padding: 12px;">Â¢1150</td>
+                    <td style="padding: 12px;">100 kilogram</td>
+                    <td style="padding: 12px;">â 5% this week</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px;">yallow Onions</td>
+                    <td style="padding: 12px;">Â¢300</td>
+                    <td style="padding: 12px;">25 kilogram</td>
+                    <td style="padding: 12px;">Steady</td>
+                </tr>
+            </table>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about">
+            <h2>About FreshOnion Market</h2>
+            <p>Founded in 2010, FreshOnion Market connects family farms with commercial buyers across Ghana. We're committed to:</p>
+            <ul>
+                <li>Fair prices for farmers</li>
+                <li>Quality assurance for buyers</li>
+                <li>Sustainable farming practices</li>
+                <li>Transparent supply chain</li>
+            </ul>
+            <p>Our network includes over 200 family farms in Ghana,Niger,Nigeria.</p>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form style="max-width: 500px; margin: 0 auto;">
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 5px;">Name:</label>
+                    <input type="text" style="width: 100%; padding: 8px; border-radius: 4px; border: 1px solid #ddd;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 5px;">Email:</label>
+                    <input type="email" style="width: 100%; padding: 8px; border-radius: 4px; border: 1px solid #ddd;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 5px;">Message:</label>
+                    <textarea style="width: 100%; padding: 8px; border-radius: 4px; border: 1px solid #ddd; height: 120px;"></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div style="margin-top: 30px; text-align: center;">
+                <p><strong>Phone:number</strong></p>
+<p>
+        <a href="tel:+233532381413" title="Make a phone call">+233532381413</a>
+    </p>
+<p>
+        <a href="tel:+233593416186" title="Make a phone call">+233593416186</a>
+    </p>
+                <p><strong>ð§ Email:</strong> abdilkadirhalilu01@gmail.com</p>
+                <p><strong>ðAddress:</strong> adjen kotoku onion market</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 FreshOnion Market. All rights reserved.</p>
+        <p><a href="#home" style="color: white;">Back to Top</a></p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
